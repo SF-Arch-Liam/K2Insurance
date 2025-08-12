@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Industry_Code_SIC__c</fullName>
+    <description>Stores the 4-digit Standard Industrial Classification (SIC) code representing the industry associated with the insured entity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the 4-digit SIC code that corresponds to the insured party’s primary industry or business activity.
+SIC codes are used to classify industries and are often required for underwriting, risk assessment, and reporting purposes.
+Example:
+	•	8011 = Offices and Clinics of Doctors of Medicine
+	•	5411 = Grocery Stores
+	•	7372 = Prepackaged Software
+You can look up codes at www.osha.gov/sic or refer to your company’s SIC reference list.</inlineHelpText>
+    <label>Standard Industry Code (SIC)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

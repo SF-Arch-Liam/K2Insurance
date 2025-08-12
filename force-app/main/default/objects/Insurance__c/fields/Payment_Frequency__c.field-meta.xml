@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Frequency__c</fullName>
+    <description>Indicates how the premium for this insurance policy is scheduled to be paid.</description>
+    <inlineHelpText>Select the payment frequency agreed upon for this policy—such as Full, Partial, Monthly, Quarterly, or Annually. This helps track billing schedules and ensures accurate financial processing.</inlineHelpText>
+    <label>Payment Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full</fullName>
+                <default>true</default>
+                <label>Full</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Full(Auto Renewal)</fullName>
+                <default>false</default>
+                <label>Full(Auto Renewal)</label>
+            </value>
+            <value>
+                <fullName>Monthly(Auto Renewal)</fullName>
+                <default>false</default>
+                <label>Monthly(Auto Renewal)</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>Quarterly(Auto Renewal)</fullName>
+                <default>false</default>
+                <label>Quarterly(Auto Renewal)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

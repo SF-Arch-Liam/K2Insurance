@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>It ensures that each association is tied to a specific Insurance policy, linking it to relevant policyholders, beneficiaries, or agents.</description>
+    <inlineHelpText>It ensures that each association is tied to a specific Insurance policy, linking it to relevant policyholders, beneficiaries, or agents.</inlineHelpText>
+    <label>Insurance</label>
+    <referenceTo>Insurance__c</referenceTo>
+    <relationshipLabel>Policy Holders</relationshipLabel>
+    <relationshipName>ContactInsuranceAssociations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

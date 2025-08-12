@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Home_Insurance</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Auto_Insurance_Compact_Layout</compactLayoutAssignment>
+    <description>This record type is used for insurance policies that cover automobile and/or homeowner-related risks. It includes policy records for individual or bundled auto and home insurance coverage, capturing details such as vehicle/property information, insured va</description>
+    <label>Auto/Home</label>
+    <picklistValues>
+        <picklist>Medicaid__c</picklist>
+        <values>
+            <fullName>MQMB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QMB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLMB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medical_Insurance_Plan_Type__c</picklist>
+        <values>
+            <fullName>HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Off_Market__c</picklist>
+        <values>
+            <fullName>Off Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Market</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owner_Expiration_Notice__c</picklist>
+        <values>
+            <fullName>120 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 Days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Frequency__c</picklist>
+        <values>
+            <fullName>Full</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Full%28Auto Renewal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly%28Auto Renewal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly%28Auto Renewal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Method__c</picklist>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commecial Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home DP3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home HO3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Umbrella</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason__c</fullName>
+    <description>Explains why the insurance policy was cancelled before its scheduled end date.</description>
+    <inlineHelpText>Provide a clear reason for the policy cancellation. This helps track trends, improve customer service, and support compliance or auditing.</inlineHelpText>
+    <label>Cancellation Reason</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

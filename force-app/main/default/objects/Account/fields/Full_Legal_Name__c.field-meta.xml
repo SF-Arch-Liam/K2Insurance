@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Legal_Name__c</fullName>
+    <description>Stores the official, legally registered name of the organization or entity as recognized by government or legal authorities.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the complete legal name of the company or organization exactly as it appears on official documents such as business licenses, contracts, or tax records. This field ensures accurate legal identification and should not include abbreviations or informal names.</inlineHelpText>
+    <label>Full Legal Name</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

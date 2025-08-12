@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <description>Specifies the subcategory of the insurance plan, such as market classification, plan type, or brand.</description>
+    <inlineHelpText>Select the appropriate subtype for the insurance policy</inlineHelpText>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On market</fullName>
+                <default>false</default>
+                <label>On market</label>
+            </value>
+            <value>
+                <fullName>Off Market</fullName>
+                <default>false</default>
+                <label>Off Market</label>
+            </value>
+            <value>
+                <fullName>G01</fullName>
+                <default>false</default>
+                <label>G01</label>
+            </value>
+            <value>
+                <fullName>G02</fullName>
+                <default>false</default>
+                <label>G02</label>
+            </value>
+            <value>
+                <fullName>F01</fullName>
+                <default>false</default>
+                <label>F01</label>
+            </value>
+            <value>
+                <fullName>F02</fullName>
+                <default>false</default>
+                <label>F02</label>
+            </value>
+            <value>
+                <fullName>T-IRA</fullName>
+                <default>false</default>
+                <label>T-IRA</label>
+            </value>
+            <value>
+                <fullName>R-IRA</fullName>
+                <default>false</default>
+                <label>R-IRA</label>
+            </value>
+            <value>
+                <fullName>Non Qualified</fullName>
+                <default>false</default>
+                <label>Non Qualified</label>
+            </value>
+            <value>
+                <fullName>H0609 061</fullName>
+                <default>false</default>
+                <label>H0609 061</label>
+            </value>
+            <value>
+                <fullName>H0609 062</fullName>
+                <default>false</default>
+                <label>H0609 062</label>
+            </value>
+            <value>
+                <fullName>H0609 052</fullName>
+                <default>false</default>
+                <label>H0609 052</label>
+            </value>
+            <value>
+                <fullName>H1278 003</fullName>
+                <default>false</default>
+                <label>H1278 003</label>
+            </value>
+            <value>
+                <fullName>H1889 014</fullName>
+                <default>false</default>
+                <label>H1889 014</label>
+            </value>
+            <value>
+                <fullName>H4514 021</fullName>
+                <default>false</default>
+                <label>H4514 021</label>
+            </value>
+            <value>
+                <fullName>S5921 403</fullName>
+                <default>false</default>
+                <label>S5921 403</label>
+            </value>
+            <value>
+                <fullName>H1278 013</fullName>
+                <default>false</default>
+                <label>H1278 013</label>
+            </value>
+            <value>
+                <fullName>Giveback</fullName>
+                <default>false</default>
+                <label>Giveback</label>
+            </value>
+            <value>
+                <fullName>G</fullName>
+                <default>false</default>
+                <label>G</label>
+            </value>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+                <label>F</label>
+            </value>
+            <value>
+                <fullName>H0609 060</fullName>
+                <default>false</default>
+                <label>H0609 060</label>
+            </value>
+            <value>
+                <fullName>H0609 051</fullName>
+                <default>false</default>
+                <label>H0609 051</label>
+            </value>
+            <value>
+                <fullName>H4527 002</fullName>
+                <default>false</default>
+                <label>H4527 002</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Business</controllingFieldValue>
+            <controllingFieldValue>Workers Com</controllingFieldValue>
+            <controllingFieldValue>E&amp;O</controllingFieldValue>
+            <controllingFieldValue>Indexed Universal Life</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Leveled</controllingFieldValue>
+            <controllingFieldValue>Fully</controllingFieldValue>
+            <controllingFieldValue>PPO</controllingFieldValue>
+            <controllingFieldValue>DSNP w QMB</controllingFieldValue>
+            <controllingFieldValue>Dental</controllingFieldValue>
+            <controllingFieldValue>MA</controllingFieldValue>
+            <controllingFieldValue>Vision</controllingFieldValue>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <controllingFieldValue>Commecial Auto</controllingFieldValue>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <controllingFieldValue>Ind Health</controllingFieldValue>
+            <controllingFieldValue>PDP</controllingFieldValue>
+            <controllingFieldValue>Cancer</controllingFieldValue>
+            <controllingFieldValue>Renters</controllingFieldValue>
+            <controllingFieldValue>Tricare</controllingFieldValue>
+            <controllingFieldValue>Short Term</controllingFieldValue>
+            <controllingFieldValue>Condo</controllingFieldValue>
+            <controllingFieldValue>Travel Insurance</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <controllingFieldValue>Umbrella</controllingFieldValue>
+            <controllingFieldValue>CSNP</controllingFieldValue>
+            <controllingFieldValue>DSNP w MQMB</controllingFieldValue>
+            <controllingFieldValue>Annuity</controllingFieldValue>
+            <controllingFieldValue>Auto</controllingFieldValue>
+            <controllingFieldValue>Home DP3</controllingFieldValue>
+            <controllingFieldValue>Home HO3</controllingFieldValue>
+            <controllingFieldValue>Term Life</controllingFieldValue>
+            <controllingFieldValue>LTC</controllingFieldValue>
+            <controllingFieldValue>Disability</controllingFieldValue>
+            <controllingFieldValue>Cancer Insurnace</controllingFieldValue>
+            <valueName>On market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business</controllingFieldValue>
+            <controllingFieldValue>Workers Com</controllingFieldValue>
+            <controllingFieldValue>E&amp;O</controllingFieldValue>
+            <controllingFieldValue>Indexed Universal Life</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Leveled</controllingFieldValue>
+            <controllingFieldValue>Fully</controllingFieldValue>
+            <controllingFieldValue>PPO</controllingFieldValue>
+            <controllingFieldValue>DSNP w QMB</controllingFieldValue>
+            <controllingFieldValue>Dental</controllingFieldValue>
+            <controllingFieldValue>MA</controllingFieldValue>
+            <controllingFieldValue>Vision</controllingFieldValue>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <controllingFieldValue>Commecial Auto</controllingFieldValue>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <controllingFieldValue>Ind Health</controllingFieldValue>
+            <controllingFieldValue>PDP</controllingFieldValue>
+            <controllingFieldValue>Cancer</controllingFieldValue>
+            <controllingFieldValue>Renters</controllingFieldValue>
+            <controllingFieldValue>Tricare</controllingFieldValue>
+            <controllingFieldValue>Short Term</controllingFieldValue>
+            <controllingFieldValue>Condo</controllingFieldValue>
+            <controllingFieldValue>Travel Insurance</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <controllingFieldValue>Umbrella</controllingFieldValue>
+            <controllingFieldValue>CSNP</controllingFieldValue>
+            <controllingFieldValue>DSNP w MQMB</controllingFieldValue>
+            <controllingFieldValue>Annuity</controllingFieldValue>
+            <controllingFieldValue>Auto</controllingFieldValue>
+            <controllingFieldValue>Home DP3</controllingFieldValue>
+            <controllingFieldValue>Home HO3</controllingFieldValue>
+            <controllingFieldValue>Term Life</controllingFieldValue>
+            <controllingFieldValue>LTC</controllingFieldValue>
+            <controllingFieldValue>Disability</controllingFieldValue>
+            <controllingFieldValue>Cancer Insurnace</controllingFieldValue>
+            <valueName>Off Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPO</controllingFieldValue>
+            <valueName>H1278 003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPO</controllingFieldValue>
+            <valueName>H1889 014</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPO</controllingFieldValue>
+            <valueName>H1278 013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DSNP w QMB</controllingFieldValue>
+            <valueName>H0609 052</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <valueName>H0609 061</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <valueName>Giveback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <valueName>H0609 060</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <valueName>H0609 051</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R-MAPD</controllingFieldValue>
+            <valueName>H4527 002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>G01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>G02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>F01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>F02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Med Supp</controllingFieldValue>
+            <valueName>F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDP</controllingFieldValue>
+            <valueName>S5921 403</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSNP</controllingFieldValue>
+            <valueName>H0609 062</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DSNP w MQMB</controllingFieldValue>
+            <valueName>H4514 021</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annuity</controllingFieldValue>
+            <valueName>T-IRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annuity</controllingFieldValue>
+            <valueName>R-IRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annuity</controllingFieldValue>
+            <valueName>Non Qualified</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

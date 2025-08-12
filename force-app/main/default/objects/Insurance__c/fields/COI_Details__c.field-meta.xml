@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COI_Details__c</fullName>
+    <description>Provides additional details related to the Certificate of Insurance (COI).</description>
+    <inlineHelpText>Enter any relevant notes or information about the Certificate of Insurance (COI), such as coverage limits, effective dates, named insureds, or special endorsements. This field helps ensure complete documentation and easy reference.</inlineHelpText>
+    <label>COI Details</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

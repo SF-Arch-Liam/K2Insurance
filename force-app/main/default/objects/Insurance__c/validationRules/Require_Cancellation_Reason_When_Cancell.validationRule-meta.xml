@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Cancellation_Reason_When_Cancell</fullName>
+    <active>true</active>
+    <description>Prevents saving the insurance record with a status of “Cancelled” unless a cancellation reason is provided. This ensures proper documentation for policy termination.</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Status__c, &quot;Cancelled&quot;),
+				LEN(Cancellation_Reason__c) = 0
+)</errorConditionFormula>
+    <errorDisplayField>Cancellation_Reason__c</errorDisplayField>
+    <errorMessage>Cancellation Reason is required when the status is set to “Cancelled”.</errorMessage>
+</ValidationRule>

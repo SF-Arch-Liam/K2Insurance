@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Off_Market__c</fullName>
+    <description>Identifies whether the insurance contract is available through a public marketplace (on-market) or sold directly/off-market.</description>
+    <inlineHelpText>Identifies whether the insurance contract is available through a public marketplace (on-market) or sold directly/off-market.</inlineHelpText>
+    <label>On/Off Market</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Market</fullName>
+                <default>false</default>
+                <label>On Market</label>
+            </value>
+            <value>
+                <fullName>Off Market</fullName>
+                <default>false</default>
+                <label>Off Market</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

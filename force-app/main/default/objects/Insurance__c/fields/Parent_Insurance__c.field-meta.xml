@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Insurance__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>References the parent insurance policy that this record is associated with, if applicable.</description>
+    <inlineHelpText>Use this field to associate a Dental or Vision insurance record with its corresponding Health Insurance policy.
+This establishes a parent-child relationship where the Health Insurance is the parent and the Dental/Vision plan is the dependent policy.
+Leave this field blank for standalone Health Insurance policies.</inlineHelpText>
+    <label>Parent Insurance</label>
+    <referenceTo>Insurance__c</referenceTo>
+    <relationshipLabel>Related Insurances</relationshipLabel>
+    <relationshipName>Insurance</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

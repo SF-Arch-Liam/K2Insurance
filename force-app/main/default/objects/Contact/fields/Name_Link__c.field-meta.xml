@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Link__c</fullName>
+    <description>📝 “Displays the full name of the Contact associated with this Contract as a clickable link. Clicking the name opens the Contract record in a new tab.”</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;/&apos; &amp; Id, FirstName &amp; &apos; &apos; &amp; LastName, &apos;_blank&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>❓ “This field shows the Contact’s full name as a hyperlink. Clicking on the name will navigate to the Contract record. If the Contact information is missing, the link may not display properly.”</inlineHelpText>
+    <label>Name Link</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Coverage_Limit__c</fullName>
+    <description>Specifies the maximum dollar amount covered by this insurance policy for building-related damages or losses.</description>
+    <inlineHelpText>Enter the coverage limit (in dollars) for the insured building under this policy. This represents the maximum reimbursement the insurer will provide for building-related claims.</inlineHelpText>
+    <label>Building Coverage Limit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

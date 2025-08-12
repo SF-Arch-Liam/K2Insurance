@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Holder__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Identifies the individual or organization that owns and is primarily responsible for the insurance policy.</description>
+    <inlineHelpText>Select the person or company who holds this insurance policy. The policy holder is typically the insured party and may be responsible for premium payments and coverage decisions.</inlineHelpText>
+    <label>Policy Holder</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Insurances</relationshipLabel>
+    <relationshipName>Insurance</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

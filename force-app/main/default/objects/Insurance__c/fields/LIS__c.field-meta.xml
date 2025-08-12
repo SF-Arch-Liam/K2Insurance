@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LIS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the insured individual qualifies for the Low-Income Subsidy (LIS) program under Medicare.</description>
+    <inlineHelpText>Check this box if the individual is eligible for the Low-Income Subsidy (LIS), also known as Extra Help.
+LIS is a Medicare program that helps eligible individuals pay for Medicare Part D prescription drug costs, including premiums, deductibles, and co-pays.
+Eligibility is based on income and resource levels set by the federal government.</inlineHelpText>
+    <label>LIS</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

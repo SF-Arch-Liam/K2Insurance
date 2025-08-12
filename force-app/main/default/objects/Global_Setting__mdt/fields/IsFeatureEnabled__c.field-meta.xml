@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsFeatureEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the associated feature is enabled across the organization.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Select this checkbox to activate the feature controlled by this global setting. When unchecked, the feature will be considered disabled in all environments where this configuration is referenced.</inlineHelpText>
+    <label>IsFeatureEnabled</label>
+    <type>Checkbox</type>
+</CustomField>

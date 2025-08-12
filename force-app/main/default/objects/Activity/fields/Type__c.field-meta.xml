@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>Indicates the category of insurance or service associated with the task. This helps categorize and prioritize tasks based on the nature of the follow-up or customer interest.</description>
+    <inlineHelpText>Select the type of insurance or service this task is related to:
+• ACA New – New Affordable Care Act inquiry or application
+• Personal Lines – Home, auto, or other personal insurance lines
+• Commercial Lines – Business or commercial insurance products
+• Medicare New – New Medicare-related inquiry or enrollment
+• T65 - 4 Months Out – Prospect approaching 65 years old in 4 months (Medicare preparation)</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACA New</fullName>
+                <default>false</default>
+                <label>ACA New</label>
+            </value>
+            <value>
+                <fullName>Personal Lines</fullName>
+                <default>false</default>
+                <label>Personal Lines</label>
+            </value>
+            <value>
+                <fullName>Commerccail lines</fullName>
+                <default>false</default>
+                <label>Commerccail lines</label>
+            </value>
+            <value>
+                <fullName>Medicare new</fullName>
+                <default>false</default>
+                <label>Medicare new</label>
+            </value>
+            <value>
+                <fullName>T65 - 4 Months Out</fullName>
+                <default>false</default>
+                <label>T65 - 4 Months Out</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

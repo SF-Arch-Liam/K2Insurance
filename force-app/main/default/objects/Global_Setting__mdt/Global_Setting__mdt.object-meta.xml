@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Stores organization-wide configuration values that control global application behavior across environments. Used to centralize key settings such as feature toggles, default values, limits, and system flags to support consistent behavior and easier environment-specific adjustments without code changes.</description>
+    <label>Global Setting</label>
+    <pluralLabel>Global Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

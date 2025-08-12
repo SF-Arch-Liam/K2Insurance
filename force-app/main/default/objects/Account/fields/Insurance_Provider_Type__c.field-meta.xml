@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Provider_Type__c</fullName>
+    <description>Specifies the category or classification of the insurance provider represented by the Account record (e.g., Auto &amp; Home, Commercial P&amp;C, Health/Medicare, Life Insurance, etc.).</description>
+    <inlineHelpText>Select the type of insurance provider this account represents. Common types ( Auto &amp; Home, Commercial P&amp;C, Health/Medicare, Life Insurance, etc.). This classification helps in reporting, compliance, and eligibility processing.</inlineHelpText>
+    <label>Insurance Provider Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto &amp; Home</fullName>
+                <default>false</default>
+                <label>Auto &amp; Home</label>
+            </value>
+            <value>
+                <fullName>Commercial P&amp;C</fullName>
+                <default>false</default>
+                <label>Commercial P&amp;C</label>
+            </value>
+            <value>
+                <fullName>Health/Medicare</fullName>
+                <default>false</default>
+                <label>Health/Medicare</label>
+            </value>
+            <value>
+                <fullName>Life Insurance</fullName>
+                <default>false</default>
+                <label>Life Insurance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

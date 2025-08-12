@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EOI__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether Evidence of Insurability (EOI) is required or has been submitted for the insurance policy.</description>
+    <inlineHelpText>Evidence of Insurability (EOI) is documentation of an individual’s health status, typically required for certain coverage levels. Use this field to track whether EOI is needed or has been received for the insured party.</inlineHelpText>
+    <label>EOI</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

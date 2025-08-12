@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Provider__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Identifies the company or organization that issued the insurance policy.</description>
+    <inlineHelpText>Enter the name of the insurance company that provides coverage for this policy. This helps track which provider is responsible for underwriting and servicing the insurance.</inlineHelpText>
+    <label>Insurance Provider</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Selected company must have the record type ‘Insurance Provider’. Please choose a valid insurance provider.</errorMessage>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Insurance Provider</value>
+        </filterItems>
+        <infoMessage>Only companies with the record type “Insurance Provider” are available for selection in this field.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Insurance Providers</relationshipLabel>
+    <relationshipName>Insurance_Providers</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

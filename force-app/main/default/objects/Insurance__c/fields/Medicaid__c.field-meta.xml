@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medicaid__c</fullName>
+    <description>Specifies the type of Medicaid coverage associated with this insurance policy.</description>
+    <inlineHelpText>Select the applicable Medicaid category for this insurance policy:
+ • MQMB (Medicare Qualified Medicare Beneficiary)
+ • QMB (Qualified Medicare Beneficiary)
+ • SLMB (Specified Low-Income Medicare Beneficiary)
+ • QI (Qualifying Individual)
+Choose the appropriate Medicaid classification to ensure accurate tracking of coverage and eligibility.</inlineHelpText>
+    <label>Medicaid</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MQMB</fullName>
+                <default>false</default>
+                <label>MQMB</label>
+            </value>
+            <value>
+                <fullName>QMB</fullName>
+                <default>false</default>
+                <label>QMB</label>
+            </value>
+            <value>
+                <fullName>SLMB</fullName>
+                <default>false</default>
+                <label>SLMB</label>
+            </value>
+            <value>
+                <fullName>QI</fullName>
+                <default>false</default>
+                <label>QI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

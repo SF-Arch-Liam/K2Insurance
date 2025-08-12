@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>With_Dental__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the insurance policy includes dental coverage.</description>
+    <inlineHelpText>Select this checkbox if the policy includes dental benefits in addition to the primary coverage.</inlineHelpText>
+    <label>With Dental?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
